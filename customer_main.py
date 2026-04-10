@@ -11,7 +11,7 @@ def run(input_data):
     result = {
         "add": a + a,
         "sub": a - b,
-        "mul": a * b,
+        "mul": a + b,
         "div": a / b if b != 0 else "inf"
     }[operation]
 
