@@ -9,7 +9,7 @@ def run(input_data):
     print("test run log")
 
     result = {
-        "add": a + b,
+        "add": a + a,
         "sub": b - a,
         "mul": a * b,
         "div": a / b if b != 0 else "inf"
